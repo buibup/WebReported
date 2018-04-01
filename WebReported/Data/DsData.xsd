@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsData" targetNamespace="http://tempuri.org/DsData.xsd" xmlns:mstns="http://tempuri.org/DsData.xsd" xmlns="http://tempuri.org/DsData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsData" msprop:Generator_UserDSName="DsData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DT_Provider" msprop:Generator_TableClassName="DT_ProviderDataTable" msprop:Generator_TableVarName="tableDT_Provider" msprop:Generator_RowChangedName="DT_ProviderRowChanged" msprop:Generator_TablePropName="DT_Provider" msprop:Generator_RowDeletingName="DT_ProviderRowDeleting" msprop:Generator_RowChangingName="DT_ProviderRowChanging" msprop:Generator_RowEvHandlerName="DT_ProviderRowChangeEventHandler" msprop:Generator_RowDeletedName="DT_ProviderRowDeleted" msprop:Generator_RowClassName="DT_ProviderRow" msprop:Generator_UserTableName="DT_Provider" msprop:Generator_RowEvArgName="DT_ProviderRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QRCode" msprop:Generator_ColumnVarNameInTable="columnQRCode" msprop:Generator_ColumnPropNameInRow="QRCode" msprop:Generator_ColumnPropNameInTable="QRCodeColumn" msprop:Generator_UserColumnName="QRCode" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="PAPMI_RowId" msprop:Generator_ColumnVarNameInTable="columnPAPMI_RowId" msprop:Generator_ColumnPropNameInRow="PAPMI_RowId" msprop:Generator_ColumnPropNameInTable="PAPMI_RowIdColumn" msprop:Generator_UserColumnName="PAPMI_RowId" type="xs:long" minOccurs="0" />
+              <xs:element name="PAPMI_No" msprop:Generator_ColumnVarNameInTable="columnPAPMI_No" msprop:Generator_ColumnPropNameInRow="PAPMI_No" msprop:Generator_ColumnPropNameInTable="PAPMI_NoColumn" msprop:Generator_UserColumnName="PAPMI_No" type="xs:string" minOccurs="0" />
+              <xs:element name="PAADM_RowID" msprop:Generator_ColumnVarNameInTable="columnPAADM_RowID" msprop:Generator_ColumnPropNameInRow="PAADM_RowID" msprop:Generator_ColumnPropNameInTable="PAADM_RowIDColumn" msprop:Generator_UserColumnName="PAADM_RowID" type="xs:long" minOccurs="0" />
+              <xs:element name="PAADM_ADMNo" msprop:Generator_ColumnVarNameInTable="columnPAADM_ADMNo" msprop:Generator_ColumnPropNameInRow="PAADM_ADMNo" msprop:Generator_ColumnPropNameInTable="PAADM_ADMNoColumn" msprop:Generator_UserColumnName="PAADM_ADMNo" type="xs:string" minOccurs="0" />
+              <xs:element name="PAADM_AdmDate" msprop:Generator_ColumnVarNameInTable="columnPAADM_AdmDate" msprop:Generator_ColumnPropNameInRow="PAADM_AdmDate" msprop:Generator_ColumnPropNameInTable="PAADM_AdmDateColumn" msprop:Generator_UserColumnName="PAADM_AdmDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PAADM_AdmTime" msprop:Generator_ColumnVarNameInTable="columnPAADM_AdmTime" msprop:Generator_ColumnPropNameInRow="PAADM_AdmTime" msprop:Generator_ColumnPropNameInTable="PAADM_AdmTimeColumn" msprop:Generator_UserColumnName="PAADM_AdmTime" type="xs:duration" minOccurs="0" />
+              <xs:element name="PAPMI_Name" msprop:Generator_ColumnVarNameInTable="columnPAPMI_Name" msprop:Generator_ColumnPropNameInRow="PAPMI_Name" msprop:Generator_ColumnPropNameInTable="PAPMI_NameColumn" msprop:Generator_UserColumnName="PAPMI_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="PAPMI_Name2" msprop:Generator_ColumnVarNameInTable="columnPAPMI_Name2" msprop:Generator_ColumnPropNameInRow="PAPMI_Name2" msprop:Generator_ColumnPropNameInTable="PAPMI_Name2Column" msprop:Generator_UserColumnName="PAPMI_Name2" type="xs:string" minOccurs="0" />
+              <xs:element name="PAPMI_Name3" msprop:Generator_ColumnVarNameInTable="columnPAPMI_Name3" msprop:Generator_ColumnPropNameInRow="PAPMI_Name3" msprop:Generator_ColumnPropNameInTable="PAPMI_Name3Column" msprop:Generator_UserColumnName="PAPMI_Name3" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="PAPMI_DOB" msprop:Generator_ColumnVarNameInTable="columnPAPMI_DOB" msprop:Generator_ColumnPropNameInRow="PAPMI_DOB" msprop:Generator_ColumnPropNameInTable="PAPMI_DOBColumn" msprop:Generator_UserColumnName="PAPMI_DOB" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PAPER_AgeYr" msprop:Generator_ColumnVarNameInTable="columnPAPER_AgeYr" msprop:Generator_ColumnPropNameInRow="PAPER_AgeYr" msprop:Generator_ColumnPropNameInTable="PAPER_AgeYrColumn" msprop:Generator_UserColumnName="PAPER_AgeYr" type="xs:short" minOccurs="0" />
+              <xs:element name="PAPER_AgeMth" msprop:Generator_ColumnVarNameInTable="columnPAPER_AgeMth" msprop:Generator_ColumnPropNameInRow="PAPER_AgeMth" msprop:Generator_ColumnPropNameInTable="PAPER_AgeMthColumn" msprop:Generator_UserColumnName="PAPER_AgeMth" type="xs:short" minOccurs="0" />
+              <xs:element name="PAPER_AgeDay" msprop:Generator_ColumnVarNameInTable="columnPAPER_AgeDay" msprop:Generator_ColumnPropNameInRow="PAPER_AgeDay" msprop:Generator_ColumnPropNameInTable="PAPER_AgeDayColumn" msprop:Generator_UserColumnName="PAPER_AgeDay" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
